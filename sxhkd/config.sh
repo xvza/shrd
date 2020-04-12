@@ -21,6 +21,11 @@ alt + k
 alt + v
   kill -15 -1
 
+super + Left
+  move.sh 0
+super + Right
+  move.sh 1
+
 XF86Audio{Lower,Raise}Volume
   pactl set-sink-volume 0 {-,+}6%
 XF86AudioMute
