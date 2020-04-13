@@ -14,10 +14,12 @@ alt + d
 alt + e
   systemctl reboot
 
+alt + b
+  polybar.sh
 alt + c
-  pkill -USR1 -x sxhkd
+  pkill -USR1 sxhkd
 alt + k
-  pkill -USR1 -x ogg123
+  pkill ogg123
 alt + v
   kill -15 -1
 
