@@ -14,12 +14,12 @@ alt + d
 alt + e
   systemctl reboot
 
-alt + b
+alt + n
   polybar.sh
 alt + c
   pkill -USR1 sxhkd
 alt + k
-  pkill ogg123
+  musc.sh
 alt + v
   kill -15 -1
 
@@ -34,8 +34,8 @@ XF86AudioMute
   pactl set-sink-mute 0 toggle
 XF86MonBrightness{Up,Down}
   light -{A,U} 6
-XF86ScreenSave{_,r}
-  light -{N,S} 0
+XF86ScreenSaver
+  light -S 0
 XF86Sleep
   systemctl suspend
 XF86PowerOff
