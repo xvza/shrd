@@ -23,12 +23,16 @@ alt + k
 alt + v
   kill -15 -1
 
+super + s
+  kill.sh
+super + Down
+  size.sh 50 50
 super + Up
-  move.sh 0
+  size.sh 100 92
 super + Left
-  move.sh 1
+  move.sh 0
 super + Right
-  move.sh 2
+  move.sh ${WIDTH}
 
 XF86Audio{Lower,Raise}Volume
   pactl set-sink-volume 0 {-,+}6%
