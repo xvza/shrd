@@ -10,7 +10,7 @@ super + eacute
 alt + u
   musc.sh ${SKEL}/Music
 alt + d
-  rofi -show
+  rofi.sh
 alt + e
   systemctl reboot
 
