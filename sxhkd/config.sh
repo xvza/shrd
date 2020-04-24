@@ -1,7 +1,8 @@
 #!/usr/bin/env bash
 ##################################################################################################################################################################
 alt + ampersand
-  rofi-sensible-terminal
+#  rofi-sensible-terminal
+  tilix
 alt + {eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
   mime.sh {inode/directory,text/plain,x-scheme-handler/http,x-scheme-handler/mailto,x-scheme-handler/note,text/x-opml,x-scheme-handler/magnet,audio/ogg,video/ogg}
 super + eacute
@@ -10,7 +11,7 @@ super + eacute
 alt + u
   musc.sh ${SKEL}/Music
 alt + d
-  rofi.sh
+  rofi -show
 alt + e
   systemctl reboot
 
