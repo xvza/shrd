@@ -9,7 +9,12 @@ super + eacute
   zeni.sh /var/http/srcs/util/mime.sh inode/directory
 
 alt + u
-  musc.sh ${SKEL}/Music
+  musc.sh Music
+alt + k
+  musc.sh 0
+alt + o
+  musc.sh 1
+
 alt + d
   rofi -show
 alt + e
@@ -21,8 +26,6 @@ alt + n
   polybar.sh
 alt + c
   pkill -USR1 sxhkd
-alt + k
-  musc.sh
 alt + v
   kill -15 -1
 
