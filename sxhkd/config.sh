@@ -27,7 +27,7 @@ alt + n
 alt + c
   pkill -USR1 sxhkd
 alt + v
-  kill -15 -1
+  term.sh
 
 super + s
   kill.sh
