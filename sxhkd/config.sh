@@ -15,6 +15,8 @@ alt + k
 alt + o
   musc.sh 1
 
+alt + Delete
+  clea.sh
 alt + d
   rofi -show
 alt + e
