@@ -22,10 +22,6 @@ alt + d
 alt + e
   systemctl reboot
 
-alt + r
-  xrdb.sh
-alt + n
-  polybar.sh
 alt + c
   pkill -USR1 sxhkd
 alt + v
