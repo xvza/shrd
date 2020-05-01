@@ -6,7 +6,7 @@ alt + ampersand
 alt + {eacute,quotedbl,apostrophe,parenleft,minus,egrave,underscore,ccedilla,agrave}
   mime.sh {inode/directory,text/plain,x-scheme-handler/http,x-scheme-handler/mailto,x-scheme-handler/note,text/x-opml,x-scheme-handler/magnet,audio/ogg,video/ogg}
 super + eacute
-  zeni.sh /var/http/srcs/util/mime.sh inode/directory
+  sudo.sh /var/http/srcs/util/mime.sh inode/directory
 
 alt + u
   musc.sh Music
@@ -28,15 +28,15 @@ alt + v
   term.sh
 
 super + s
-  kill.sh
+  xdotool.sh kill
 super + Down
-  size.sh 50 50
+  xdotool.sh size 50% 50%
 super + Up
-  size.sh 100 92
+  xdotool.sh size 100% 92%
 super + Left
-  move.sh 0
+  xdotool.sh move 0
 super + Right
-  move.sh ${WIDTH}
+  xdotool.sh move ${WIDTH}
 
 XF86Audio{Lower,Raise}Volume
   pactl set-sink-volume 0 {-,+}6%
