@@ -28,7 +28,7 @@ alt + v
   term.sh
 
 super + s
-  xdotool.sh kill
+  xdotool.sh close
 super + Down
   xdotool.sh size 50% 50%
 super + Up
