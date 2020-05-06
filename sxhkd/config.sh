@@ -34,9 +34,9 @@ super + Down
 super + Up
   xdotool.sh size 100% 100%
 super + Left
-  xdotool.sh move 0
+  xdotool.sh move 0 0
 super + Right
-  xdotool.sh move ${WIDTH}
+  xdotool.sh move $((${WIDTH}/2)) 0
 
 XF86Audio{Lower,Raise}Volume
   pactl set-sink-volume 0 {-,+}6%
