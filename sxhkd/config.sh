@@ -31,7 +31,7 @@ super + s
 super + Down
   xdotool.sh size x 50%
 super + Up
-  xdotool.sh size 100% y
+  xdotool.sh size 100% 92%
 super + Left
   xdotool.sh move 0 y
 super + Right
