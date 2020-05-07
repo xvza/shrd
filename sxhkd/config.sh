@@ -29,13 +29,13 @@ alt + v
 super + s
   xdotool.sh close
 super + Down
-  xdotool.sh size 50% 50%
+  xdotool.sh size x 50%
 super + Up
-  xdotool.sh size 100% 100%
+  xdotool.sh size 100% y
 super + Left
-  xdotool.sh move 0 0
+  xdotool.sh move 0 y
 super + Right
-  xdotool.sh move $((${WIDTH}/2)) 0
+  xdotool.sh move $((${WIDTH}/2)) y
 
 XF86Audio{Lower,Raise}Volume
   amixer set Master 6%{-,+}
