@@ -38,9 +38,9 @@ super + Right
   xdotool.sh move $((${WIDTH}/2)) 0
 
 XF86Audio{Lower,Raise}Volume
-  pactl set-sink-volume 0 {-,+}6%
+  amixer set Master 6%{-,+}
 XF86AudioMute
-  pactl set-sink-mute 0 toggle
+  amixer set Master toggle
 XF86MonBrightness{Up,Down}
   light -{A,U} 6
 XF86ScreenSaver
